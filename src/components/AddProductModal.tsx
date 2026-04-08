@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import { Plus, Search, Filter, MoreVertical, Loader2 } from 'lucide-react';
+import { Plus, MoreVertical, Loader2 } from 'lucide-react';
 import { db } from '@/lib/firebase';
 import { collection, onSnapshot, query, orderBy } from 'firebase/firestore';
 

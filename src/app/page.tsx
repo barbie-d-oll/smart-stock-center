@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Package, AlertTriangle, DollarSign, TrendingUp } from 'lucide-react';
 import AIInsights from '@/components/AIInsights';
 import { db } from '@/lib/firebase';
-import { collection, onSnapshot, query, orderBy } from 'firebase/firestore';
+import { collection, onSnapshot, query } from 'firebase/firestore';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 
 interface Product {
